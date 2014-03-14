@@ -1,0 +1,78 @@
+body{ 
+	background-color: #AAB7BF;
+	width: 100%;
+	border: 1px solid blue;
+}
+
+.float-container{
+	overflow: hidden;
+}
+
+#wrapper{
+	width: 960px;
+	background-color: #AAB7BF;
+	color: #FFFFFF;
+	font-family: Arial;
+	font-weight: bold;
+	border: 1px solid blue;
+	margin: 0 auto;
+	min-height: 600px;
+}
+
+.header{
+	width: 470px;
+	margin: 0 auto;
+	border-top-color: 1px solid blue;
+}
+
+h1{
+	font-size: 48px;
+	text-align: center;
+	margin: 0 auto;
+	color: #1427F9;
+}
+
+#game-wrapper{
+	width: 470px;
+	margin: 0 auto;	
+	background-color: #AAB7BF;
+	border: 3px solid #FFFFFF;
+	margin-top: 20px;
+	min-height: 470px;
+}
+
+.cell{
+	background-color: #FFFFFF;
+	color: #000000;
+	width: 31.5%;
+	height: 150px;
+	border: 1px solid #909291;
+	text-align: center;
+	margin: 2px 3px 3px 3px;
+	float: left;
+}
+
+.button-div{
+	width: 470px;
+	margin: 0 auto;
+	border: 1px solid blue;
+}
+
+button{
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 130px;
+	line-height: 30px;
+	border: 2px solid #909291;
+	background-color: #D60232;
+	display: block;
+	color: #FFFFFF;
+	font-size: 14px;
+	border-radius: 5px;
+}
+
+.cell .xmark,
+.cell .omark{
+	display: none;
+	position: relative;
+}
