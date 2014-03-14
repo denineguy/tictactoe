@@ -13,7 +13,6 @@ var game = {
 //or check if the winning combinations cells have the same image (.xmark or .omark)
 $(document).ready( function() { 
 
-
 	$('.cell').click ( function(){
 
 		if (!$(this).hasClass('occupied')) {
@@ -56,7 +55,7 @@ $(document).ready( function() {
 		}	
 	
 	});
-			
+
 
 	var checkWinner;	
 	var won;
