@@ -1,7 +1,6 @@
 body{ 
 	background-color: #AAB7BF;
 	width: 100%;
-	border: 1px solid blue;
 }
 
 .float-container{
@@ -14,7 +13,6 @@ body{
 	color: #FFFFFF;
 	font-family: Arial;
 	font-weight: bold;
-	border: 1px solid blue;
 	margin: 0 auto;
 	min-height: 600px;
 }
@@ -22,7 +20,7 @@ body{
 .header{
 	width: 470px;
 	margin: 0 auto;
-	border-top-color: 1px solid blue;
+	padding-top: 20px;
 }
 
 h1{
@@ -30,6 +28,7 @@ h1{
 	text-align: center;
 	margin: 0 auto;
 	color: #1427F9;
+	padding-bottom: 20px;
 }
 
 #game-wrapper{
@@ -55,7 +54,7 @@ h1{
 .button-div{
 	width: 470px;
 	margin: 0 auto;
-	border: 1px solid blue;
+	padding-top: 20px;
 }
 
 button{
